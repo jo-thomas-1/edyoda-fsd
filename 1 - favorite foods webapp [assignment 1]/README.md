@@ -2,7 +2,11 @@
 
 Design a Favourite Foods webpage with the specified requirements.
 
+GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/1%20-%20favorite%20foods%20webapp%20%5Bassignment%201%5D
+
 View in Codepen: https://codepen.io/jothomas/full/ZErQqNx
+
+GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 
 ## Requirements
 
@@ -18,8 +22,10 @@ View in Codepen: https://codepen.io/jothomas/full/ZErQqNx
 	<li>Please add smooth scrolling as well.</li>
 </ul>
 
-## Color Scheme
+## Color Palette
 
-Primary - #F48C06
-Text - #03071E
-Background - #fff1ce
+| Type | Color |
+| --- | --- |
+| Primary | [#F48C06](https://via.placeholder.com/150/F48C06/) '#F48C06' |
+| Text | [#03071E](https://via.placeholder.com/150/03071E/) '#03071E' |
+| Background | [#fff1ce](https://via.placeholder.com/150/fff1ce/) '#fff1ce' |

@@ -26,6 +26,6 @@ GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 
 | Type | Color |
 | --- | --- |
-| Primary | <img src="https://via.placeholder.com/10/F48C06/"> `#F48C06` |
-| Text | <img src="https://via.placeholder.com/10/03071E/"> `#03071E` |
-| Background | <img src="https://via.placeholder.com/10/fff1ce/"> `#fff1ce` |
+| Primary | <img src="https://via.placeholder.com/20/F48C06?text="> `#F48C06` |
+| Text | <img src="https://via.placeholder.com/20/03071E?text="> `#03071E` |
+| Background | <img src="https://via.placeholder.com/20/fff1ce?text="> `#fff1ce` |

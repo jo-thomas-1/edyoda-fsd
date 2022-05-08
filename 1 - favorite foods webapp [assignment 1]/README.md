@@ -1,6 +1,8 @@
 # Favorite Foods WebApp - Assignment 1
 
-## Requirments
+Design a Favourite Foods webpage with the specified requirements.
+
+## Requirements
 
 <ul>
 	<li>You can add any food items of your choice but the page structure should be the same as the reference website.</li>

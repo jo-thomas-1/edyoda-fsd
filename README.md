@@ -1,2 +1,2 @@
 # Edyoda FSD
-Applications created during full stack web development training at Edyoda
+Applications created during full stack web development training at Edyoda.

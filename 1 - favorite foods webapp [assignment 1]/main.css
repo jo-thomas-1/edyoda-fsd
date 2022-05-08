@@ -1,0 +1,25 @@
+body {
+	margin: 0px;
+	font-family: sans-serif;
+	text-align: justify;
+	color: #03071E;
+}
+
+#topbar {
+	background-color: #F48C06;
+	padding: 12px;
+}
+
+.menu_item {
+	color: #ffffff;
+	font-weight: bold;
+	padding: 8px;
+}
+
+#main_content {
+	padding: 12px;
+}
+
+.food_container {
+	border-bottom: 2px solid #03071E;
+}

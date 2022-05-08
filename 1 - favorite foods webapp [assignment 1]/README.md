@@ -2,6 +2,8 @@
 
 Design a Favourite Foods webpage with the specified requirements.
 
+View in Codepen: https://codepen.io/jothomas/full/ZErQqNx
+
 ## Requirements
 
 <ul>
@@ -15,3 +17,9 @@ Design a Favourite Foods webpage with the specified requirements.
 	<li>You can choose any color theme of your choice.</li>
 	<li>Please add smooth scrolling as well.</li>
 </ul>
+
+## Color Scheme
+
+Primary - #F48C06
+Text - #03071E
+Background - #fff1ce

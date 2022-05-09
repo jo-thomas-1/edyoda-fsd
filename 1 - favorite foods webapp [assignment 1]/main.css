@@ -15,6 +15,11 @@ body {
 	color: #ffffff;
 	font-weight: bold;
 	padding: 8px;
+	cursor: pointer;
+}
+
+.menu_item:hover {
+	background-color: #ffa633;
 }
 
 #main_content {

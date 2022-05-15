@@ -2,4 +2,37 @@ body {
 	margin: 0px;
 	font-family: sans-serif;
 	text-align: justify;
+	background-color: #f2f6ff;
+}
+
+#header {
+	padding: 16px 78px;
+	background-color: #ffffff;
+}
+
+#logo, #menu_dropdown {
+	display: inline-grid;
+}
+
+#menu_dropdown {
+	padding-left: 78px;
+}
+
+#logo_main {
+	width: 130px;
+	font-family: 'Open Sans';
+	color: #0084ff;
+	font-size: 32px;
+}
+
+#logo_sub {
+	margin: 0;
+	font-family: 'Raleway';
+	font-weight: 900;
+	font-style: italic;
+}
+
+#menu_dropdown_icon {
+	padding: 0px;
+	padding-left: 8px;
 }

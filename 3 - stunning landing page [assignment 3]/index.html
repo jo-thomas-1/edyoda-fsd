@@ -4,24 +4,34 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Stunning Landing Page</title>
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<!-- Importing Roboto font from Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<!-- header -->
-		<div>
+		<div id="header" class="row">
 			<div>
-				<img src="images/stunning-logo.png" alt="Stunning Logo" />
+				<img id="logo" src="images/stunning-logo.png" alt="Stunning Logo" />
 			</div>
-			<div>
+			<nav id="nav" class="row">
 				<div>Home</div>
 				<div>About</div>
 				<div>Blog</div>
 				<div>Jobs</div>
+			</nav>
+			<div>
+				<button>Your Account</button>
 			</div>
 		</div>
 
 		<!-- main section -->
-		<section>
-			<div>
+		<section class="row">
+			<div id="main_content" class="column">
 				<div>
 					<h1>Stunning Workplace<span>.</span></h1>
 				</div>
@@ -33,7 +43,7 @@
 				</div>
 				<div>
 					<!-- tile 1 -->
-					<div>
+					<div class="row">
 						<img src="images/tick-gray.png" alt="tick-gray" />
 						<p>Dmm design</p>
 						<img src="images/user-pink.png" alt="user-pink" />
@@ -41,7 +51,7 @@
 						<div></div>
 					</div>
 					<!-- tile 2 -->
-					<div>
+					<div class="row">
 						<img src="images/tick-blue.png" alt="tick-blue" />
 						<p>Blurr animation</p>
 						<img src="images/user-orange.png" alt="user-orange" />
@@ -49,7 +59,7 @@
 						<div></div>
 					</div>
 					<!-- tile 3 -->
-					<div>
+					<div class="row">
 						<img src="images/tick-gray.png" alt="tick-gray" />
 						<p>Illustrtion</p>
 						<img src="images/user-blue.png" alt="user-blue" />
@@ -57,7 +67,7 @@
 						<div></div>
 					</div>
 					<!-- tile 4 -->
-					<div>
+					<div class="row">
 						<img src="images/tick-gray.png" alt="tick-gray" />
 						<p>Refunds</p>
 						<img src="images/user-red.png" alt="user-red" />

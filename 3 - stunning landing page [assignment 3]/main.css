@@ -1,0 +1,40 @@
+/* structural */
+body {
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+.row {
+	display: flex;
+	border: 1px solid black;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+/* common elements */
+
+button {
+	padding: 1em;
+	border: none;
+	cursor: pointer;
+}
+
+/* content specific */
+
+#logo {
+	height: 48px;
+}
+
+#header {
+	justify-content: space-between;
+}
+
+#nav > div {
+	cursor: pointer;
+}

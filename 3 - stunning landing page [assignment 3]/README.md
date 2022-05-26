@@ -18,17 +18,14 @@ GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 
 | Type | Color |
 | --- | --- |
-| Primary | ![#5243c0](https://via.placeholder.com/20/5243c0?text=+) `#5243c0` |
-| Primary Text | ![#221e1b](https://via.placeholder.com/20/221e1b?text=+) `#221e1b` |
-| Topbar Red | ![#FE5D20](https://via.placeholder.com/20/FE5D20?text=+) `#FE5D20` |
-| Topbar Blue | ![#8071D0](https://via.placeholder.com/20/8071D0?text=+) `#8071D0` |
-| Your Account Button Pink | ![#FFD8DB](https://via.placeholder.com/20/FFD8DB?text=+) `#FFD8DB` |
-| Your Account Button Blue | ![#A389CC](https://via.placeholder.com/20/A389CC?text=+) `#A389CC` |
-| New Account Button Blue | ![#5243C0](https://via.placeholder.com/20/5243C0?text=+) `#5243C0` |
-| New Account Button White | ![#ffffff](https://via.placeholder.com/20/ffffff?text=+) `#ffffff` |
-| "Dmm design" card Pink | ![#FED7DA](https://via.placeholder.com/20/FED7DA?text=+) `#FED7DA` |
-| Blurr Animation" card Red | ![#FD6534](https://via.placeholder.com/20/FD6534?text=+) `#FD6534` |
-| "Illustration" card Green | ![#9ED095](https://via.placeholder.com/20/9ED095?text=+) `#9ED095` |
-| "Refunds" card Yellow | ![#FFE4A0](https://via.placeholder.com/20/FFE4A0?text=+) `#FFE4A0` |
+| Primary | ![#5243C0](https://user-images.githubusercontent.com/7560063/170466073-d88f2c4d-75c3-4d97-93ec-fb616b105efc.png) `#5243C0` |
+| Primary Text | ![#221E1B](https://user-images.githubusercontent.com/7560063/170466214-b4493c3e-4092-4cf2-8628-0a417310a829.png) `#221E1B` |
+| Primary Button Text | ![#FFFFFF](https://user-images.githubusercontent.com/7560063/170467142-587415ef-720a-40c8-971c-04af6bb26230.png) `#FFFFFF` |
+| Secondary Button Background | ![#FFD8DB](https://user-images.githubusercontent.com/7560063/170467045-4318e5b3-15b2-4604-b7b3-f2a581d373c2.png) `#FFD8DB` |
+| Secondary Button Text | ![#A389CC](https://user-images.githubusercontent.com/7560063/170467076-634ade90-f223-4ce2-9af0-8ba8f7b50395.png) `#A389CC` |
+| Pink | ![#FED7DA](https://user-images.githubusercontent.com/7560063/170467179-b7817a3b-1767-49e6-b44c-5e0cd6667a19.png) `#FED7DA` |
+| Red | ![#FD6534](https://user-images.githubusercontent.com/7560063/170467207-0a2ffb51-f751-427f-9ed8-6c32330a09f7.png) `#FD6534` |
+| Green | ![#9ED095](https://user-images.githubusercontent.com/7560063/170467243-e67ab66e-84a2-4c35-a46f-5d3db64181fe.png) `#9ED095` |
+| Yellow | ![#FFE4A0](https://user-images.githubusercontent.com/7560063/170467294-7d93943b-dbd2-411b-b83a-d34d7f4c1fd9.png) `#FFE4A0` |
 
 Image library: https://postimg.cc/gallery/KLZyXXn

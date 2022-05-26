@@ -4,7 +4,7 @@ Design an exact replica of the provided landing page. Reference images, illustra
 
 GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/3%20-%20stunning%20landing%20page%20%5Bassignment%203%5D
 
-View in Codepen: https://codepen.io/jothomas/pen/NWyvvJK
+View in Codepen: https://codepen.io/jothomas/full/NWyvvJK
 
 GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 

@@ -2,9 +2,9 @@
 
 Design an exact replica of the Nuuk Webapp. Reference website URL below: https://nuuk-e3eaa.firebaseapp.com/
 
-GitHub direct link:
+GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/4%20-%20nuuk%20webapp
 
-View in Codepen:
+View in Codepen: https://codepen.io/jothomas/pen/YzeepoL
 
 GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 

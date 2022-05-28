@@ -1,0 +1,17 @@
+/* structural */
+body {
+	margin: 0px;
+	font-family: sans-serif;
+	text-align: justify;
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+.row {
+	display: flex;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}

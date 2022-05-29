@@ -5,32 +5,39 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Nuuk Webapp</title>
 
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css/color.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<section>
-			<div>
-				<div>
-					<a href="#">
-						<img src="./assets/img/logo-white.png" width="90" alt="Nuuk Logo">
+		<section id="section-one" class="column">
+			<nav id="navbar" class="row">
+				<div id="logo_container" class="column">
+					<a id="logo" class="row bg-primary" href="#">
+						<img src="images/logo-white.png" width="90" alt="Nuuk Logo">
 					</a>
 				</div>
-				<div>
-					<a href="#">Home</a>
-					<a href="#">Projects</a>
-					<a href="#">About</a>
-					<a href="#">Services</a>
-					<a href="#">Blog</a>
-					<a href="#">Pages</a>
-					<a href="#">Get Free Quote</a>
+				<div class="row">
+					<a href="#" class="nav-item">Home</a>
+					<a href="#" class="nav-item">Projects</a>
+					<a href="#" class="nav-item">About</a>
+					<a href="#" class="nav-item">Services</a>
+					<a href="#" class="nav-item">Blog</a>
+					<a href="#" class="nav-item">Pages</a>
+					<a href="#" id="nav_call_to_action" class="nav-item bg-primary">Get Free Quote</a>
+				</div>
+			</nav>
+			<div id="banner" class="row">
+				<div class="column">
+					<h1 id="banner_title" class="row">You dream. We create</h1>
+					<p id="banner_text" class="row">We turn your ideas to reality, we don't stop until you're satisfied.</p>
+					<a href="#" class="button" class="row">Get free quote</a>
 				</div>
 			</div>
-			<div>
-				<h1>You dream. We create</h1>
-				<p>We turn your ideas to reality, we don't stop until you're satisfied.</p>
-				<a href="#" class="button">Get free quote</a>
-			</div>
-			<div>
+			<div class="row">
 				<div>
 					<img src="">
 					<h1>Phone Number</h1>

@@ -2,9 +2,10 @@
 body {
 	margin: 0px;
 	font-family: sans-serif;
+	font-size: 17px;
 	text-align: justify;
 	background-color: #ffffff;
-	padding: 1em;
+	margin: 1em;
 }
 
 .row {

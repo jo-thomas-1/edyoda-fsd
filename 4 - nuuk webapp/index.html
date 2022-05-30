@@ -1,137 +1,80 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Nuuk Webapp</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nuuk Webapp</title>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Dosis Goolge Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" type="text/css" href="css/color.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- font awsome 4 -->
+	<script src="https://use.fontawesome.com/e3bc532bc9.js"></script>
+</head>
 	<body>
 		<section id="section-one" class="column">
-			<nav id="navbar" class="row">
-				<div id="logo_container" class="column">
-					<a id="logo" class="row bg-primary" href="#">
-						<img src="images/logo-white.png" width="90" alt="Nuuk Logo">
-					</a>
+			<div id="nav-holder" class="row">
+				<div id="nav-container" class="row">
+					<div id="logo_holder" class="row">
+						<a id="logo_link" class="column" href="#">
+							<img src="images/logo-white.png" width="90px" alt="logo">
+						</a>
+					</div>
+					<nav id="nav_item_set" class="row">
+						<a class="nav-item active" href="#">Home</a>
+						<a class="nav-item" href="#">Projects</a>
+						<a class="nav-item" href="#">About</a>
+						<a class="nav-item" href="#">Services</a>
+						<a class="nav-item" href="#">Blog</a>
+						<a class="nav-item" href="#">Pages</a>
+						<a id="nav_free_quote_button" class="nav-item" href="#">Get free quote</a>
+					</nav>
 				</div>
-				<div class="row">
-					<a href="#" class="nav-item">Home</a>
-					<a href="#" class="nav-item">Projects</a>
-					<a href="#" class="nav-item">About</a>
-					<a href="#" class="nav-item">Services</a>
-					<a href="#" class="nav-item">Blog</a>
-					<a href="#" class="nav-item">Pages</a>
-					<a href="#" id="nav_call_to_action" class="nav-item bg-primary">Get Free Quote</a>
-				</div>
-			</nav>
+			</div>
 			<div id="banner" class="row">
-				<div class="column">
-					<h1 id="banner_title" class="row">You dream. We create</h1>
-					<p id="banner_text" class="row">We turn your ideas to reality, we don't stop until you're satisfied.</p>
-					<a href="#" class="button" class="row">Get free quote</a>
-				</div>
-			</div>
-			<div class="row">
-				<div>
-					<img src="">
-					<h1>Phone Number</h1>
-					<p>1-800</p>
-					<p>dds</p>
-				</div>
-				<div>
-					<img src="">
-					<h1>Phone Number</h1>
-					<p>1-800</p>
-					<p>asdasd</p>
-				</div>
-				<div>
-					<img src="">
-					<h1>Phone Number</h1>
-					<p>1-800</p>
-					<a href="#"></a>
+				<div id="banner-holder" class="row">
+					<div id="banner_content" class="column">
+						<h1>You Dream. We Create.</h1>
+						<p class="para-white">We turn your ideas to reality, we don't stop until you're satisfied.</p>
+						<a id="banner_free_quote_button" href="#">Get free quote</a>
+					</div>
+					<div id="social_buttons" class="column">
+						<img class="social-button" src="images/facebook-logo.png" alt="facebook">
+						<hr class="divider" width="100%">
+						<img class="social-button" src="images/twitter-logo.png" alt="twitter">
+						<hr class="divider" width="100%">
+						<img class="social-button" src="images/linkedin-logo.png" alt="linkedin">
+						<hr class="divider" width="100%">
+						<img class="social-button" src="images/instagram-logo.png" alt="instagram">
+					</div>
 				</div>
 			</div>
 		</section>
-		<section>
-			<div>
-				<h1>Our Specialization</h1>
-				<h1>Services</h1>
-				<a href="#">View All Services</a>
-			</div>
-			<div>
-				<div>
-					<img src="">
-					<h1>sdsd</h1>
-					<p>dsdsd</p>
-					<a href="#"></a>
-				</div>
-				<div>
-					<img src="">
-					<h1>sdsd</h1>
-					<p>dsdsd</p>
-					<a href="#"></a>
-				</div>
-				<div>
-					<img src="">
-					<h1>sdsd</h1>
-					<p>dsdsd</p>
-					<a href="#"></a>
-				</div>
-				<div>
-					<img src="">
-					<h1>sdsd</h1>
-					<p>dsdsd</p>
-					<a href="#"></a>
-				</div>
-			</div>
-		</section>
-		<section>
-			<div>
-				<img src="">
-			</div>
-			<div>
-				<div>
-					<h1>Who We Are</h1>
-					<h1>About</h1>
-				</div>
-				<div>
-					<p>sdfddsfasfdfdsf</p>
-					<p>dsfadsfdsfdsaf</p>
-				</div>
-				<div>
-					<a href="#"></a>
-				</div>
-			</div>
-			<div>
-				<div>
-					<div>
-						<p>170</p>
+		<section id="section-contact">
+			<div id="contat_bar_holder" class="row">
+				<div id="contat_bar" class="row">
+					<div id="phone" class="column contact-card">
+						<i class="fa fa-phone contact-card-item" aria-hidden="true"></i>
+						<h4>Phone Number</h4>
+						<p class="para-white contact-card-item">1-800-506-266</p>
+						<p class="para-white contact-card-item">1-100-777-800</p>
 					</div>
-					<p>dsfsdfdsf</p>
-				</div>
-				<div>
-					<div>
-						<p>170</p>
+					<div id="email" class="column contact-card">
+						<i class="fa fa-envelope-o contact-card-item" aria-hidden="true"></i>
+						<h4>Contact</h4>
+						<p class="para-white contact-card-item">contact@nuuk.com</p>
+						<p class="para-white contact-card-item">info@nuuk.com</p>
 					</div>
-					<p>dsfsdfdsf</p>
-				</div>
-				<div>
-					<div>
-						<p>170</p>
+					<div id="time" class="column contact-card">
+						<i class="fa fa-clock-o contact-card-item" aria-hidden="true"></i>
+						<h4>Contact</h4>
+						<p class="para-white contact-card-item">Mon - Sat 8:00 - 17:30, Sunday - Closed</p>
+						<a class="contact-card-item" href="#">Find on Map</a>
 					</div>
-					<p>dsfsdfdsf</p>
-				</div>
-				<div>
-					<div>
-						<p>170</p>
-					</div>
-					<p>dsfsdfdsf</p>
 				</div>
 			</div>
 		</section>

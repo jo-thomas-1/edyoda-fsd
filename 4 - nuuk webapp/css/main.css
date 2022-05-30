@@ -13,25 +13,24 @@ white:  #ffffff
 body {
 	font-family: 'Dosis', sans-serif;
 	font-size: 14px;
-	text-align: justify;
 	background-color: #ffffff;
 	margin: 1em;
 }
 
 .row {
 	display: flex;
-	border: 1px solid black;
-	margin: 1em;
 }
 
 .column {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid black;
-	margin: 1em;
 }
 
 /* other elements */
+
+.space-between {
+	justify-content: space-between;
+}
 
 #section-one {
 	background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 65%), url('https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg');
@@ -117,6 +116,7 @@ p {
 #banner {
 	justify-content: center;
 	margin-top: 1em;
+	padding-bottom: 10em;
 }
 
 #banner h1 {
@@ -165,7 +165,8 @@ p {
 
 #section-contact {
 	position: relative;
-	top: -90px;
+	top: -150px;
+	margin-bottom: -140px;
 }
 
 #contat_bar_holder {
@@ -209,4 +210,87 @@ p {
 
 .contact-card a:hover {
 	border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+#services {
+	margin-top: 6em;
+}
+
+.section_heading {
+	margin-bottom: 6em;
+}
+
+.section_heading_front {
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.section_heading_back {
+    color: rgba(241, 241, 247, 0.4);
+    font-size: 120px;
+    letter-spacing: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    z-index: -1;
+}
+
+.section_heading_back_holder {
+	position: relative;
+	top: -12em;
+	margin-bottom: -12em;
+}
+
+.section_heading_link {
+	color: #919198;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-bottom: 2px;
+	border-bottom: 2px solid rgba(228, 115, 18, 0);
+}
+
+.section_heading_link:hover {
+	border-bottom: 2px solid rgba(228, 115, 18, 1);
+}
+
+#service_cards {
+	justify-content: space-between;
+}
+
+.service_card {
+	width: 20%;
+}
+
+.service_card_image {
+	width: 46px;
+	height: 46px;
+	margin-bottom: 20px;
+}
+
+.service_card_title {
+	margin-top: 0px;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.service_card_text {
+	margin-bottom: 20px;
+}
+
+.service_card_link {
+	padding-bottom: 2px;
+	border-bottom: 2px solid rgba(228, 115, 18, 0);
+	width: fit-content;
+	font-weight: bold;
+	color: rgb(145, 145, 152, 1);
+}
+
+.service_card_link:hover {
+	border-bottom: 2px solid rgba(228, 115, 18, 1);
 }

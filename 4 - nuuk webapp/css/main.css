@@ -247,12 +247,13 @@ img {
 }
 
 .section_heading_back {
-    color: rgba(241, 241, 247, 0.4);
+    color: #f9f9fc;
     font-size: 120px;
     letter-spacing: 11px;
     margin-top: 0px;
     margin-bottom: 0px;
     z-index: -1;
+    text-transform: uppercase;
 }
 
 .section_heading_back_holder {
@@ -347,4 +348,113 @@ img {
 
 .fact_card {
 	padding-right: 10%;
+}
+
+#work {
+	margin-top: 6em;
+	background-color: #f7f8fc;
+	padding-top: 6em;
+}
+
+#work .section_heading_back {
+	z-index: 1;
+	color: #f2f2f7;
+}
+
+#work_cards {
+	content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+    margin-top: 2em;
+    padding: 20px;
+}
+
+.work_card {
+    padding-top: 20px;
+	padding-right: 20px;
+	width: 30%;
+	float: left;
+	min-height: 1px;
+	display: block;
+	position: relative;
+}
+
+.work_card:hover .work_card_overlay {
+	opacity: 1;
+}
+
+.work_card_link {
+	max-width: 100%;
+	background-color: transparent;
+}
+
+.work_card_overlay {
+	position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    justify-content: center;
+	align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .2s;
+    opacity: 0;
+}
+
+.work_card_circle {
+	width: 90px;
+    height: 90px;
+    padding-right: 11px;
+    padding-left: 11px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-image: linear-gradient(59deg, #ff6361, #e47312);
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#get_quote {
+	padding-top: 7%;
+    padding-bottom: 7%;
+  	justify-content: center;
+    color: #ffffff;
+    background-color: #e47312;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url('https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    align-items: center;
+}
+
+#get_quote h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 42px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.paragraph-white {
+	margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+#get_quote a {
+	color: #ffffff;
+	border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+#get_quote a:hover {
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
 }

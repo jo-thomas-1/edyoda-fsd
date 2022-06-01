@@ -14,7 +14,7 @@ body {
 	font-family: 'Dosis', sans-serif;
 	font-size: 14px;
 	background-color: #ffffff;
-	margin: 1em;
+	margin: 1.6em;
 }
 
 .row {
@@ -49,6 +49,12 @@ p {
     color: #919197;
     font-size: 17px;
     line-height: 25px;
+}
+
+img {
+	max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .no-border {
@@ -178,13 +184,14 @@ p {
 	justify-content: space-around;
 	background-color: #e47312;
     background-image: linear-gradient(186deg, #e47312, #ff6361);
-	padding: 15px 50px;
 }
 
 .contact-card {
 	align-content: center;
 	align-items: center;
 	color: #ffffff;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .contact-card i {
@@ -214,6 +221,15 @@ p {
 
 #services {
 	margin-top: 6em;
+	align-items: center;
+}
+
+#services .section_heading {
+	width: 90%;
+}
+
+#services #service_cards {
+	width: 90%;
 }
 
 .section_heading {
@@ -241,15 +257,19 @@ p {
 
 .section_heading_back_holder {
 	position: relative;
-	top: -12em;
-	margin-bottom: -12em;
+	top: -10em;
+	left: -2em;
+	margin-bottom: -16em;
 }
 
 .section_heading_link {
 	color: #919198;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 1px;
-    padding-bottom: 2px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
 	border-bottom: 2px solid rgba(228, 115, 18, 0);
 }
 
@@ -293,4 +313,38 @@ p {
 
 .service_card_link:hover {
 	border-bottom: 2px solid rgba(228, 115, 18, 1);
+}
+
+#about {
+	margin-top: 8em;
+	align-items: center;
+}
+
+#about_main, #about_facts {
+	width: 90%;
+}
+
+#about_main .column {
+	max-width: 50%;
+}
+
+#about_main .description {
+	padding-left: 100px;
+}
+
+#about_facts {
+	justify-content: space-between;
+	margin-top: 4em;
+}
+
+.fact_number {
+	margin-bottom: 10px;
+    color: #e47312;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.fact_card {
+	padding-right: 10%;
 }

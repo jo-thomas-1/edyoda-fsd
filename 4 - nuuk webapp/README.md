@@ -25,7 +25,9 @@ GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 | Shadow Heading | ![#F9F9FC](https://user-images.githubusercontent.com/7560063/171615065-429a0bc5-1e7f-4c78-bc5e-342200c56747.png) `#F9F9FC` |
 | Light Background | ![#F7F8FC](https://user-images.githubusercontent.com/7560063/171615083-c3da53bc-6833-4b35-ae5b-088ff150d52f.png) `#F7F8FC` |
 | Dark Background | ![#0A1229](https://user-images.githubusercontent.com/7560063/171615105-c4c3dfdb-a491-447f-b6c6-596689a2ca8c.png) `#0A1229` |
+
 | Gradient |
+| --- |
 | ![2](https://user-images.githubusercontent.com/7560063/171615209-626665da-a401-4918-ab42-4a148ae68c61.JPG) |
 
 Image Library: https://postimg.cc/gallery/j5r1L7W

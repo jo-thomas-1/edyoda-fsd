@@ -596,3 +596,108 @@ img {
 .card_column {
 	margin-left: 1em;
 }
+
+#news {
+	padding-top: 6em;
+	padding-bottom: 4em;
+}
+
+#blog_cards {
+	justify-content: space-between;
+	color: #ffffff !important;
+}
+
+.blog_card {
+	margin-right: 1em;
+}
+
+.blog_card_link {
+	align-items: flex-start;
+    text-decoration: none;
+	justify-content: flex-start;
+}
+
+.blog_card_image_holder {
+	position: relative;
+    background-color: #5c5c5c;
+}
+
+.blog_card_image {
+	max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.blog_card_date_box {
+	position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+}
+
+.blog_card_date {
+	width: 70px;
+    height: 70px;
+    justify-content: center;
+	align-items: center;
+    background-image: linear-gradient(45deg, #ff6361, #e47312);
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.blog_card_month {
+	width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #9d9da5;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.blog_card_description_holder {
+	max-width: 100%;
+    padding: 2em;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+}
+
+.blog_card_description_title {
+	margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 19px;
+    line-height: 26px;
+    color: #ffffff !important;
+}
+
+.blog_card_description_text {
+	margin-bottom: 5px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+
+.blog_card_description_link {
+	display: inline-block;
+	color: #ffffff;
+	font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	position: relative;
+	margin-top: 15px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.blog_card_description_link a {
+	color: #ffffff;
+}
+
+.blog_card_description_link:hover {
+	border-bottom: 2px solid rgba(255, 255, 255, 1);
+}

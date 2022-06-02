@@ -458,3 +458,141 @@ img {
 #get_quote a:hover {
 	border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
+
+#team {
+	background-color: #f7f8fc;
+	padding-top: 6em;
+	align-items: center;
+	padding-bottom: 4em;
+}
+
+#team .section_heading_back {
+	z-index: 1;
+	color: #f2f2f7;
+}
+
+#team .section_heading, #team #team_cards {
+	width: 90%;
+}
+
+#team_cards {
+	justify-content: space-between;
+}
+
+.team_card {
+	width: 22%;
+	position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.team_photo {
+	min-height: 300px;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#team_photo_1 {
+	    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
+}
+
+#team_photo_2 {
+	    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg');
+}
+
+#team_photo_3 {
+	    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg');
+}
+
+#team_photo_4 {
+	    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg');
+}
+
+.team_description {
+	padding: 1em;
+	background-color: #ffffff;
+}
+
+.team_description h1 {
+	margin-top: 0px;
+}
+
+.team_bar {
+	background-color: #e47312;
+	width: fit-content;
+	padding: 0.4em;
+	position: absolute;
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+}
+
+#testimonial {
+	padding-top: 4em;
+	padding-bottom: 4em;
+	background-color: #f7f8fc;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.client_card {
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 50px auto 61px;
+    padding: 80px 30px 26px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#testimonial .description {
+	width: 40%;
+	margin-right: 4em;
+}
+
+#client_cards {
+	width: 90%;
+	margin-right: 2em;
+}
+
+.client_card_circle {
+	position: relative;
+    width: 60px;
+    height: 60px;
+    margin: -115px auto 25px;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 100%;
+    background-image: linear-gradient(8deg, #ff6361, #e47312);
+    opacity: 1;
+    color: #ffffff;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.client_card_circle .text {
+	padding-top: 12px;
+}
+
+.client_card_title {
+	margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.client_card_job_title {
+	margin-bottom: 0px;
+    color: #bdbdc9 !important;
+    font-size: 16px;
+}
+
+.card_column {
+	margin-left: 1em;
+}

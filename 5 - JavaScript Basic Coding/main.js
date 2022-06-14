@@ -110,3 +110,66 @@ else
 {
 	console.log("Scalene Triangle");
 }
+
+//-----------------------------------------------------------------------------------
+
+// Answer 5
+console.log("Answer 5 -----------------------------------");
+
+// Write a JavaScript program to input electricity unit charge
+// calculate the total electricity bill according to the given condition:
+// For first 50 units Rs. 0.50/unit
+// For next 100 units Rs. 0.75/unit
+// For next 100 units Rs. 1.20/unit
+// For unit above 250 Rs. 1.50/unit
+// An additional surcharge of 20% is added to the bill.
+
+var units = parseFloat(prompt("Enter number of electricity units"));
+var bill = 0;
+
+// For first 50 units Rs. 0.50/unit
+if(units <= 50 && units > 0)
+{
+	bill = bill + (units * 0.50);
+	units = 0;
+}
+else if(units > 0)
+{
+	bill = bill + (50 * 0.50);
+	units = units - 50;
+}
+
+// For next 100 units Rs. 0.75/unit
+if(units <= 100 && units > 0)
+{
+	bill = bill + (units * 0.75);
+	units = 0;
+}
+else if(units > 0)
+{
+	bill = bill + (100 * 0.75);
+	units = units - 100;
+}
+
+// For next 100 units Rs. 1.20/unit
+if(units <= 100)
+{
+	bill = bill + (units * 1.20);
+	units = 0;
+}
+else if(units > 0)
+{
+	bill = bill + (100 * 1.20);
+	units = units - 100;
+}
+
+// For unit above 250 Rs. 1.50/unit
+if(units > 0)
+{
+	bill = bill + (units * 1.50);
+}
+
+// An additional surcharge of 20% is added to the bill.
+bill = bill + (bill * 0.2);
+
+console.log("Total Bill: ", bill);

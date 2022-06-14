@@ -57,3 +57,31 @@ else
 
 // Answer 3
 console.log("Answer 3 -----------------------------------");
+
+// Write a JavaScript program to create menu driven calculator that performs basic arithmetic operations
+// (add, subtract, multiply and divide) using switch case.
+// The calculator should input two numbers and an operator: '+', '-', '\*', '/' from the user.
+// It should perform operation according to the operator entered and must take input in given format.
+
+var number_1 = parseInt(prompt("Enter the first value"));
+var operator = prompt("Enter the operation to perform [+, -, *, /]");
+var number_2 = parseInt(prompt("Enter the second value"));
+
+switch(operator)
+{
+	case '+':
+		console.log(number_1 + " " + operator + " " + number_2 + " = " + (number_1 + number_2));
+		break;
+	case '-':
+		console.log(number_1 + " " + operator + " " + number_2 + " = " + (number_1 - number_2));
+		break;
+	case '*':
+		console.log(number_1 + " " + operator + " " + number_2 + " = " + (number_1 * number_2));
+		break;
+	case '/':
+		console.log(number_1 + " " + operator + " " + number_2 + " = " + (number_1 / number_2));
+		break;
+	default:
+		console.log("Invalid operation entered");
+		break;
+}

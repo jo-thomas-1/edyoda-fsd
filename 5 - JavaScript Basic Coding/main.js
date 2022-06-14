@@ -85,3 +85,28 @@ switch(operator)
 		console.log("Invalid operation entered");
 		break;
 }
+
+//-----------------------------------------------------------------------------------
+
+// Answer 4
+console.log("Answer 4 -----------------------------------");
+
+// Write a JavaScript program to input sides of a triangle
+// check whether a triangle is equilateral, scalene or isosceles triangle using if else.
+
+var side_1 = parseInt(prompt("Enter value for first side"));
+var side_2 = parseInt(prompt("Enter value for second side"));
+var side_3 = parseInt(prompt("Enter value for third side"));
+
+if(side_1 == side_2 && side_1 == side_3)
+{
+	console.log("Equilateral Triangle");
+}
+else if(side_1 == side_2 || side_1 == side_3 || side_2 == side_3)
+{
+	console.log("Isosceles Triangle");
+}
+else
+{
+	console.log("Scalene Triangle");
+}

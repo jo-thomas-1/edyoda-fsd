@@ -1,6 +1,7 @@
 console.clear();
 
 // Answer 1
+console.log("Answer 1 -----------------------------------");
 
 var str1 = 'Today is';
 var str2 = '      a beautiful day     ';
@@ -16,7 +17,43 @@ console.log("Result: " + result);
 //-----------------------------------------------------------------------------------
 
 // Answer 2
+console.log("Answer 2 -----------------------------------");
 
-var enteredAlphabet = 'd' or "D"
+var enteredAlphabet = 'z';
+enteredAlphabet = enteredAlphabet.toLowerCase();
 
 // Write a program to check vowel, consonant or non-alphabet using switch case. Change value of enteredAlphabet and check if your code works fine.
+
+if(enteredAlphabet >= 'a' && enteredAlphabet <= 'z')
+{
+	switch(enteredAlphabet)
+	{
+		case 'a':
+			console.log("Vowel");
+			break;
+		case 'e':
+			console.log("Vowel");
+			break;
+		case 'i':
+			console.log("Vowel");
+			break;
+		case 'o':
+			console.log("Vowel");
+			break;
+		case 'u':
+			console.log("Vowel");
+			break;
+		default:
+			console.log("Consonant");
+			break;
+	}
+}
+else
+{
+	console.log("non-alphabet");
+}
+
+//-----------------------------------------------------------------------------------
+
+// Answer 3
+console.log("Answer 3 -----------------------------------");

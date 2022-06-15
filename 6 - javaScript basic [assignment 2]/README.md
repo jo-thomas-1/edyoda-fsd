@@ -4,7 +4,7 @@ Impliment the programming questions in the following codepen URL using JavaScrip
 
 https://codepen.io/qaifikhan/pen/yLgVJQo?editors=0010
 
-GitHub direct link: 
+GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/6%20-%20javaScript%20basic%20%5Bassignment%202%5D
 
 View in Codepen: https://codepen.io/pen/?editors=0011
 

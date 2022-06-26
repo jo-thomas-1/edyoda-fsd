@@ -17,7 +17,7 @@ Reference Website: https://shoplane.netlify.app/index.html
 Product List: https://codepen.io/qaifikhan/pen/OJXZBWb?editors=0010
 
 
-GitHub direct link:
+GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/7%20-%20dynamic%20html%20grid%20%5Bassignment%203%5D
 
 View in Codepen: https://codepen.io/jothomas/full/GRxKZjL
 

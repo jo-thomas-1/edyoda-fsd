@@ -2,7 +2,9 @@
 
 Design this section of the product grid.
 
-Screenshot: https://drive.google.com/file/d/1EXKDKmP0L6Z5ScO-vCmvb4cS_wMudWNH/view?usp=sharing
+![sample](https://user-images.githubusercontent.com/7560063/175808995-f4a6e1eb-0df7-4f60-b42b-855ff9285d42.png)
+
+Screenshot Link: https://drive.google.com/file/d/1EXKDKmP0L6Z5ScO-vCmvb4cS_wMudWNH/view?usp=sharing
 
 Important Instructions:
 

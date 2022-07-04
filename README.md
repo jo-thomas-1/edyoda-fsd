@@ -12,3 +12,4 @@ Applications created during full stack web development training at Edyoda.
 | 5 | JavaScript Basic Coding | [Go to code](https://github.com/jothomas1996/edyoda-fsd/tree/main/5%20-%20JavaScript%20Basic%20Coding), [View in codepen](https://codepen.io/jothomas/pen/mdXjBxe) |
 | 6 | JavaScript Basics - Assignment 2 | [Go to code](https://github.com/jothomas1996/edyoda-fsd/tree/main/6%20-%20javaScript%20basic%20%5Bassignment%202%5D), [View in codepen](https://codepen.io/pen/?editors=0011) |
 | 7 | Dynamic HTML Grid - Assignment 3 | [Go to code](https://github.com/jothomas1996/7-dynamic-html-grid.git), [View in codepen](https://codepen.io/jothomas/full/GRxKZjL) |
+| 8 | JavaScript Events - Assignment 4 | [Go to code](https://github.com/jothomas1996/8-js-events-product-detail-page), [View in codepen](https://codepen.io/jothomas/full/wvmKBgo) |

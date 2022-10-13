@@ -2,9 +2,9 @@
 
 Design a UI template with input fields.
 
-GitHub direct link:
+GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/1-1%20-%20facebook%20login%20page%20%5Bassignment%201%5D
 
-View in Codepen: https://codepen.io/jothomas/full/ZErQqNx
+View in Codepen: https://codepen.io/jothomas/full/qBYgaGw
 
 GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 

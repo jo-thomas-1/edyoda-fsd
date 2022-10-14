@@ -28,6 +28,6 @@ GitHub Repository: https://github.com/jothomas1996/edyoda-fsd.git
 | Type | Color |
 | --- | --- |
 | Primary | ![#1877F2](https://user-images.githubusercontent.com/7560063/195738370-8d1e897c-2cb7-48fe-b692-36b22aa1130e.png) `#1877F2` |
-| Secondary | ![#DDDFE2](https://user-images.githubusercontent.com/7560063/195738164-4972c79b-a977-4440-939d-be8fc3275ef2.png) `#DDDFE2` |
-| Placeholder Text | ![#90949C](https://user-images.githubusercontent.com/7560063/195738194-82cdf095-c172-48f3-9aca-0fa80e7a219b.png) `#90949C` |
-| Background | ![#F0F2F5](https://user-images.githubusercontent.com/7560063/195738223-26baead5-efff-41ff-a861-c9726e6b1a33.png) `#F0F2F5` |
+| Secondary | ![#DDDFE2](https://user-images.githubusercontent.com/7560063/195738595-dae007b8-7b11-4872-960b-2ada874424be.png) `#DDDFE2` |
+| Placeholder Text | ![#90949C](https://user-images.githubusercontent.com/7560063/195738623-570edb13-abdd-4b40-8d6c-12df6964caa8.png) `#90949C` |
+| Background | ![#F0F2F5](https://user-images.githubusercontent.com/7560063/195738640-0fa78477-237f-4e72-97b0-1fcd5b209059.png) `#F0F2F5` |

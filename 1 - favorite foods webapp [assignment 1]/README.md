@@ -1,6 +1,6 @@
 # Favorite Foods WebApp - Assignment 1
 
-Design a Favourite Foods webpage with the specified requirements.
+Design a Favourite Foods webpage with the specified requirements
 
 GitHub direct link: https://github.com/jothomas1996/edyoda-fsd/tree/main/1%20-%20favorite%20foods%20webapp%20%5Bassignment%201%5D
 
